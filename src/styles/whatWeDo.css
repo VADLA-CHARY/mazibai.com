@@ -1,0 +1,114 @@
+.pad-sec {
+    padding: 100px 0!important;
+  }
+  .sep-section {
+    height: 1px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+  
+  
+  /*--------------------
+    Features Section
+  ----------------------*/
+  
+  #features-section {
+    /* display: flex; */
+    padding: 120px 0!important;
+    padding-bottom: 100px!important;
+  }
+  
+  #features-section .title-section {
+    padding-bottom: 5px;
+  }
+  
+  .features-image {
+    text-align: center;
+  }
+  
+  .choose-image {
+    text-align: center;
+  }
+  
+  ul.features-list {
+    list-style: none;
+    padding: 0;
+    padding-top: 50px;
+  }
+  
+  ul.features-list li {
+    margin-bottom: 60px;
+  }
+  
+  .iconbox {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .iconbox i {
+    font-size: 32px;
+    color: #243fa0 ;
+    border: 1px solid #03175e;
+    border-radius: 5px;
+    padding: 10px;
+    /* color: #fc6e51 */
+  }
+  
+  .features-box-content {
+    margin-left: 70px;
+  }
+  
+  .features-box-content h6 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #273f97 ;
+   
+    /* color: #; */
+  }
+  
+  .creative-content-left, .creative-content-right {
+    padding-top: 100px;
+  }
+  
+  #creative-section-1 h2, #creative-section-2 h2, #features-app-section-1 h2, #features-app-section-2 h2 {
+    font-weight: 400;
+    /* letter-spacing: 2px; */
+    font-size: 30px;
+    text-transform: capitalize;
+    color: var(--pink1);
+  }
+  
+  #creative-section-1 p, #creative-section-2 p, #features-app-section-1 p {
+    line-height: 26px;
+    font-size: 14px;
+  }
+  
+  #creative-section-1 .view-more, #creative-section-2 .view-more, #features-app-section-1 .view-more, #features-app-section-2 .view-more {
+    padding-top: 30px;
+    text-align: left!important;
+  }
+  
+  .img-creative-left figure, .img-creative-right figure {
+    padding: 0 25px;
+    text-align: center;
+  }
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  
+  
+  @media (max-width: 800px){
+    .col-sm-offset-2{
+      margin-left: 3.66666667%;
+    }
+   #im {
+      /* width: inherit; */
+      /* flex-wrap: wrap; */
+      /* flex-basis: 100%; */
+      width: 350px;
+    }
+  }
