@@ -1,4 +1,4 @@
-# I've Uploaded the **public** and **src** 
+# I've Uploaded the **public** , **src** and **build**  
 
 just clone the repo 
 and do 
